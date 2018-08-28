@@ -43,7 +43,7 @@ asyncLoop(myArray, (item, next, exit) => {
 
 }, () => {
 
-    console.log('FINISED');
+    console.log('FINISHED');
     process.exit(0);
 
 });
@@ -75,7 +75,7 @@ asyncLoop(myArray, function(item, next, exit) {
 
 }, function() => {
 
-    console.log('FINISED');
+    console.log('FINISHED');
 
 });
 

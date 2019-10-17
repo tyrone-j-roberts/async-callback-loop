@@ -1,6 +1,6 @@
 # asyncLoop.js
 
-A single method to handle iterating through arrays and running asynchronous functions every iteration.
+A single method to handle iterating through arrays and running asynchronous functions every iteration. This can be used as a solution when Async/Await can't be used.
 
 ## Installation
 

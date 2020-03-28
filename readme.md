@@ -49,34 +49,3 @@ asyncLoop(myArray, (item, next, exit) => {
 });
 
 ```
-
-or
-
-index.html
-```html
-<script src="/path/to/js/asyncLoop.js"></script>
-<script src="/path/to/js/myScript.js"></script>
-```
-
-myScript.js
-```javascript 
-var myArray = ['Apples', 'Grapes', 'Bananas', 'Oranges' ];
-
-asyncLoop(myArray, function(item, next, exit) {
-    
-    //Call exit(); to exit loop early
-
-    //Run asynchronous function
-    setTimeout(function() {
-        console.log(item);
-        //Call next to run next iteration
-        next();
-    }, 1000);
-
-}, function() => {
-
-    console.log('FINISHED');
-
-});
-
-```
